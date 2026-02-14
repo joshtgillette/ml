@@ -1,5 +1,8 @@
+from mlp import mlp
+
+
 def main():
-    pass
+    mlp.go()
 
 
 if __name__ == "__main__":
