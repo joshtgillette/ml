@@ -1,9 +1,11 @@
 import sys
 
+from cali import cali
 from mlp import mlp
 
 PROJECTS = {
     "mlp": mlp.go,
+    "cali": cali.go,
 }
 
 
